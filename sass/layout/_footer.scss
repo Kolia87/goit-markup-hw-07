@@ -1,0 +1,107 @@
+ ._footer {
+    color: var(--accent-color);
+    margin-right: 0px;
+  }
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--hero-bgr);
+  }
+  .address_nav_list {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  .address {
+    margin-top: 20px;
+  }
+  .footer_list_nav:not(:last-child) {
+    margin-bottom: 9px;
+  }
+  .footer_icon_r {
+    display: flex;
+    align-items: baseline;
+  }
+  .navi_link{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+  }
+  }
+  .footer {
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .logo-footer {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--primary-bg-color);
+  }
+  .nav_item {
+    color: var(--rgba-footer);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+    color: var(--accent-color);
+  }
+  }
+  .user_icon_footer {
+    display: flex;
+  }
+  .title_footer_link {
+    margin-bottom: 20px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-bg-color);
+  }
+  .footer_icon {
+    margin-left: 70px;
+  }
+  .footer_svg {
+    fill: var(--fill-footer);
+  }
+  .user_icon_svg{
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        .footer_svg:hover &,
+        .footer_svg:focus &{
+    fill: var(--accent-color);
+  }
+  }
+  .footer-email-form{
+    margin-left: auto;
+  } 
+  .title_footer_link_email {
+    display: block;
+    margin-bottom: 20px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-bg-color);
+  }
+  .form_btn_email_svg{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }

@@ -1,0 +1,33 @@
+  .user_icon_list_clients {
+    flex-basis: calc((100% - 150px) / 6);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+ 
+  .user_icon_link_clients {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+  }
+  }
+  .user_icon_clients{
+    fill: var(--clients-icon-bg);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        .user_icon_link_clients:hover &,
+        .user_icon_link_clients:focus &{
+        fill: var(--accent-color);
+        border-radius: 4px;
+        }
+  }
+ 
+  
