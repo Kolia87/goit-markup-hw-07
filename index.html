@@ -22,24 +22,24 @@
     <header class="page-header">
       <div class="container page-header-container">
         <nav class="navigation">
-          <a href="" class="logo">Web<span class="logo-item">Studio</span></a>
-          <ul class="nav_list">
-            <li class="nav_list_item"><a href="" class="current">Студия</a></li>
-            <li class="nav_list_item"><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li class="nav_list_item"><a href="" class="nav_link_contact">Контакты</a></li>
+          <a href="" class="logo">Web<span class="logo_item">Studio</span></a>
+          <ul class="menu__item">
+            <li class="menu__item__name"><a href="" class="current">Студия</a></li>
+            <li class="menu__item__name"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="menu__item__name"><a href="" class="menu__item__contact">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="nav_link">
-                    <li class="nav_main">
-            <a class="nav_link_item" href="mailto:info@devstudio.com"> 
-               <svg class="nav_mail_icon">
+        <ul class="menu__link">
+                    <li class="menu__link__item">
+            <a class="menu__link__contact" href="mailto:info@devstudio.com"> 
+               <svg class="menu__link__icon__mail">
               <use href="./images/icons.svg.svg#icon-mail-1"></use>
             </svg>
             info@devstudio.com</a>
           </li>
-                    <li class="nav_main">
-            <a class="nav_link_item" href="tel:+380961111111">
-                                      <svg class="nav_phone_icon">
+                    <li class="menu__link__item">
+            <a class="menu__link__contact" href="tel:+380961111111">
+                                      <svg class="menu__link__icon__phone">
               <use href="./images/icons.svg.svg#icon-smartphone-1"></use>
             </svg>
               +38 096 111 11 11</a>
@@ -51,7 +51,7 @@
       <!-- hero-->
       <section class="hero overlay">
         <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
@@ -61,50 +61,50 @@
         <div class="container">
           <h2 class="visually-hidden">Качества</h2>
 
-          <ul class="features">
-            <li class="features_list">
-              <div class="features-icon">
+          <ul class="section__features">
+            <li class="section__features__list">
+              <div class="section__features__icon">
               <svg  width="70" height="70">
                 <use href="./images/icons.svg.svg#icon-antenna"></use>
               </svg>
               </div>
-              <h3 class="features_title">Внимание к деталям</h3>
+              <h3 class="section__features__title">Внимание к деталям</h3>
               <p class="content">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
 
-            <li class="features_list">
-              <div class="features-icon">             
+            <li class="section__features__list">
+              <div class="section__features__icon">             
               <svg  width="70" height="70" >
                 <use href="./images/icons.svg.svg#icon-clock"></use>
               </svg>
              </div>
-              <h3 class="features_title">Пунктуальность</h3>
+              <h3 class="section__features__title">Пунктуальность</h3>
               <p class="content">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
 
-            <li class="features_list">
-              <div class="features-icon">
+            <li class="section__features__list">
+              <div class="section__features__icon">
               <svg  width="70" height="70">
                 <use href="./images/icons.svg.svg#icon-diagram"></use>
               </svg>
             </div>
-              <h3 class="features_title">Планирование</h3>
+              <h3 class="section__features_title">Планирование</h3>
               <p class="content">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
 
-            <li class="features_list">
-              <div class="features-icon">
+            <li class="section__features__list">
+              <div class="section__features__icon">
               <svg  width="70" height="70">
                 <use href="./images/icons.svg.svg#icon-astronaut"></use>
               </svg>
               </div>
-              <h3 class="features_title">Современные технологии</h3>
+              <h3 class="section__features__title">Современные технологии</h3>
               <p class="content">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
@@ -115,16 +115,16 @@
       <!-- gallery-->
       <section class="section gallery">
         <div class="container">
-          <h2 class="gallery__list">Чем мы занимаемся</h2>
-          <ul class="gallery_item">
-            <li class="gallery_item_img">
+          <h2 class="gallery__title">Чем мы занимаемся</h2>
+          <ul class="gallery__item">
+            <li class="gallery__item__images">
               <img class="img" src="images/img_1-min.jpg" alt="Создание" width="370" height="294" />
-             <div class="gallery_wrapper">
+             <div class="gallery__wrapper">
               <p>Десктопные приложения</p>
             </div>
             </li>
 
-            <li class="gallery_item_img">
+            <li class="gallery__item__images">
               <img
                 class="img"
                 src="images/img_2-min.jpg"
@@ -132,13 +132,13 @@
                 width="370"
                 height="294"
               />
-                           <div class="gallery_wrapper">
+                           <div class="gallery__wrapper">
               <p>Мобильные приложения</p>
             </div>
 
             </li>
 
-            <li class="gallery_item_img">
+            <li class="gallery__item__images">
               <img
                 class="img"
                 src="images/img_3-min.jpg"
@@ -146,18 +146,18 @@
                 width="370"
                 height="294"
               />
-                           <div class="gallery_wrapper">
+                           <div class="gallery__wrapper">
               <p>Дизайнерские решения</p>
             </div>
-
             </li>
           </ul>
         </div>
       </section>
+
       <!-- user-->
       <section class="section user">
         <div class="container">
-          <h2 class="user_title">Наша команда</h2>
+          <h2 class="user__title">Наша команда</h2>
           <ul class="user_list">
             <li class="user_img">
               <img
@@ -524,7 +524,7 @@
             </svg>
           </span>
           </label>
-          <label class="contact-form-field">
+          <label class="contact-form-field contact-form-field-comment">
             <span class="contact-form-field-key">
             Комментарий
           </span>
@@ -538,7 +538,7 @@
            name="user_policy"
            />
           <label for="checkbox-policy" class="contact-form-checkbox-label">
-          Соглашаюсь c рассылкой и принимаю<a href=""> Условия договора</a>
+          Соглашаюсь c рассылкой и принимаю&nbsp;<a href="">Условия договора</a>
         </label>
             <button class="contact-form-btn" type="submit">Отправить</button>
         </form>

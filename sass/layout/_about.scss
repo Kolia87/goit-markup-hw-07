@@ -1,15 +1,15 @@
 
-.features {
+.section__features {
     display: flex;
   }
-  .features_list:not(:last-child) {
+  .section__features__list:not(:last-child) {
     margin-right: 30px;
   }
-  .features_list {
+  .section__features__list {
     flex-basis: calc((100% - 90px) / 4);
   }
   
-.features_title {
+.section__features__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -18,7 +18,7 @@
     text-transform: uppercase;
     color: var(--title-text-color);
   }
-  .features-icon {
+  .section__features__icon {
     display: flex;
     justify-content: center;
     align-items: center;
