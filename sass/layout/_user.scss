@@ -1,11 +1,11 @@
 .user {
     background-color: var(--portfolio-color-button);
   }
-  .user_list {
+  .user__list {
     display: flex;
     margin-top: 50px;
   }
-  .user_img {
+  .user__list__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -15,11 +15,11 @@
       margin-right: 30px;
     }
   }
-  .user_title_text {
+  .team {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .user_title_name {
+  .team__name {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -29,7 +29,7 @@
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
   }
-  .user_item {
+  .team__direction {
     margin-top: 10px;
     margin-bottom: 16px;
     font-weight: 400;
@@ -39,21 +39,22 @@
     letter-spacing: 0.03em;
     color: var(--text-color);
   }
+  .team__list {
+    display: flex;
+    justify-content: center;
+  }
   
-  .img {
+  .user__list__item_images {
     display: block;
     max-width: 100%;
     height: auto;
   }
 
-  .user_icon {
-    display: flex;
-    justify-content: center;
-  }
-  .user_icon_list:not(:last-child) {
+  
+  .team__list__item:not(:last-child) {
     margin-right: 10px;
   }
-  .user_icon_link {
+  .team__list__link {
     display: flex;
     box-shadow: none;
     width: 44px;
@@ -68,15 +69,15 @@
   }
   }
 
-  .user_icon_insta {
+  .team__list__link__icon {
     fill: var(--clients-icon-bg);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover,
         &:focus{
           fill: var(--accent-color);
         }
-        .user_icon_link:hover &,
-        .user_icon_link:focus & {
+        .team__list__link:hover &,
+        .team__list__link:focus & {
           fill: var(--primary-bg-color);}
   }
 

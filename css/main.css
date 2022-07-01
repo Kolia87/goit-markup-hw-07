@@ -121,7 +121,7 @@ p {
   letter-spacing: 0.03em;
 }
 
-.user_title {
+.user__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -129,7 +129,7 @@ p {
   letter-spacing: 0.03em;
 }
 
-.user_title {
+.user__title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -140,13 +140,13 @@ p {
   color: var(--primery-text-color);
 }
 
-.clients_title {
+.clients__title {
   margin-bottom: 50px;
 }
 
 .logo,
 .logo_item,
-.logo-footer {
+.logo__footer__color {
   font-style: normal;
   text-decoration: none;
   font-family: "Raleway";
@@ -334,7 +334,7 @@ p {
   color: var(--primary-bg-color);
 }
 
-.contact-form-input-mail {
+.footer__email__form__input {
   background: transparent;
   justify-content: flex-end;
   width: 358px;
@@ -347,7 +347,7 @@ p {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form-btn-email {
+.footer__email__form__button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -366,7 +366,7 @@ p {
   padding: 10px 28px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-form-btn-email:hover, .contact-form-btn-email:focus {
+.footer__email__form__button:hover, .footer__email__form__button:focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
@@ -442,11 +442,11 @@ p {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.page-header {
-  border-bottom: 1px solid var(--page-header);
+.page__header {
+  border-bottom: 1px solid var(--page__header);
 }
 
-.page-header-container {
+.page__header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -690,27 +690,27 @@ p {
   background-color: var(--portfolio-color-button);
 }
 
-.user_list {
+.user__list {
   display: flex;
   margin-top: 50px;
 }
 
-.user_img {
+.user__list__item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 90px) / 4);
   background-color: var(--primary-bg-color);
 }
-.user_img:not(:last-child) {
+.user__list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.user_title_text {
+.team {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.user_title_name {
+.team__name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -721,7 +721,7 @@ p {
   color: var(--primery-text-color);
 }
 
-.user_item {
+.team__direction {
   margin-top: 10px;
   margin-bottom: 16px;
   font-weight: 400;
@@ -732,22 +732,22 @@ p {
   color: var(--text-color);
 }
 
-.img {
+.team__list {
+  display: flex;
+  justify-content: center;
+}
+
+.user__list__item_images {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.user_icon {
-  display: flex;
-  justify-content: center;
-}
-
-.user_icon_list:not(:last-child) {
+.team__list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.user_icon_link {
+.team__list__link {
   display: flex;
   box-shadow: none;
   width: 44px;
@@ -757,29 +757,29 @@ p {
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user_icon_link:hover, .user_icon_link:focus {
+.team__list__link:hover, .team__list__link:focus {
   background-color: var(--accent-color);
 }
 
-.user_icon_insta {
+.team__list__link__icon {
   fill: var(--clients-icon-bg);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user_icon_insta:hover, .user_icon_insta:focus {
+.team__list__link__icon:hover, .team__list__link__icon:focus {
   fill: var(--accent-color);
 }
-.user_icon_link:hover .user_icon_insta, .user_icon_link:focus .user_icon_insta {
+.team__list__link:hover .team__list__link__icon, .team__list__link:focus .team__list__link__icon {
   fill: var(--primary-bg-color);
 }
 
-.user_icon_list_clients {
+.clients__team__item {
   flex-basis: calc((100% - 150px) / 6);
 }
-.user_icon_list_clients:not(:last-child) {
+.clients__team__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.user_icon_link_clients {
+.clients__team__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -789,21 +789,21 @@ p {
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user_icon_link_clients:hover, .user_icon_link_clients:focus {
+.clients__team__link:hover, .clients__team__link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 
-.user_icon_clients {
+.clients__team__link_icon {
   fill: var(--clients-icon-bg);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user_icon_link_clients:hover .user_icon_clients, .user_icon_link_clients:focus .user_icon_clients {
+.clients__team__link:hover .clients__team__link_icon, .clients__team__link:focus .clients__team__link_icon {
   fill: var(--accent-color);
   border-radius: 4px;
 }
 
-._footer {
+.logo__footer {
   color: var(--accent-color);
   margin-right: 0px;
 }
@@ -814,7 +814,7 @@ p {
   background-color: var(--hero-bgr);
 }
 
-.address_nav_list {
+.address__list {
   font-style: normal;
   text-decoration: none;
   color: var(--text-color);
@@ -824,16 +824,16 @@ p {
   margin-top: 20px;
 }
 
-.footer_list_nav:not(:last-child) {
+.address__list__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer_icon_r {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.navi_link {
+.address__link__maps {
   font-style: normal;
   text-decoration: none;
   font-size: 14px;
@@ -842,7 +842,7 @@ p {
   color: var(--primary-bg-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navi_link:hover, .navi_link:focus {
+.address__link__maps:hover, .address__link__maps:focus {
   color: var(--accent-color);
 }
 
@@ -856,17 +856,17 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo-footer {
+.logo__footer__color {
   font-style: normal;
   text-decoration: none;
   color: var(--primary-bg-color);
 }
 
-.nav_item {
+.address__link__contakts {
   color: var(--rgba-footer);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav_item:hover, .nav_item:focus {
+.address__link__contakts:hover, .address__link__contakts:focus {
   color: var(--accent-color);
 }
 
@@ -901,11 +901,11 @@ p {
   fill: var(--accent-color);
 }
 
-.footer-email-form {
+.footer__email__form {
   margin-left: auto;
 }
 
-.title_footer_link_email {
+.footer__title__link_form {
   display: block;
   margin-bottom: 20px;
   font-family: "Roboto";
@@ -918,7 +918,7 @@ p {
   color: var(--primary-bg-color);
 }
 
-.form_btn_email_svg {
+.footer__button_icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;

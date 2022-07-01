@@ -1,4 +1,4 @@
- ._footer {
+ .logo__footer {
     color: var(--accent-color);
     margin-right: 0px;
   }
@@ -7,7 +7,7 @@
     padding-bottom: 60px;
     background-color: var(--hero-bgr);
   }
-  .address_nav_list {
+  .address__list {
     font-style: normal;
     text-decoration: none;
     color: var(--text-color);
@@ -15,14 +15,14 @@
   .address {
     margin-top: 20px;
   }
-  .footer_list_nav:not(:last-child) {
+  .address__list__item:not(:last-child) {
     margin-bottom: 9px;
   }
-  .footer_icon_r {
+  .footer__container {
     display: flex;
     align-items: baseline;
   }
-  .navi_link{
+  .address__link__maps{
     font-style: normal;
     text-decoration: none;
     font-size: 14px;
@@ -44,12 +44,12 @@
     color: var(--primary-bg-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .logo-footer {
+  .logo__footer__color {
     font-style: normal;
     text-decoration: none;
     color: var(--primary-bg-color);
   }
-  .nav_item {
+  .address__link__contakts {
     color: var(--rgba-footer);
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover,
@@ -84,10 +84,10 @@
     fill: var(--accent-color);
   }
   }
-  .footer-email-form{
+  .footer__email__form{
     margin-left: auto;
   } 
-  .title_footer_link_email {
+  .footer__title__link_form {
     display: block;
     margin-bottom: 20px;
   font-family: 'Roboto';
@@ -99,7 +99,7 @@
     text-transform: uppercase;
     color: var(--primary-bg-color);
   }
-  .form_btn_email_svg{
+  .footer__button_icon{
     margin-left: 10px;
     width: 24px;
     height: 24px;
