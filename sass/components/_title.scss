@@ -12,23 +12,8 @@
     text-transform: uppercase;
     color: var(--primary-bg-color);
   }
-  .gallery__title {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--title-text-color);
-    letter-spacing: 0.03em;
-  }
-  .user__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    color: var(--title-text-color);
-    letter-spacing: 0.03em;
-  }
 
-  .user__title {
+  .clients__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -37,8 +22,5 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
-  }
-  .clients__title {
-    margin-bottom: 50px;
   }
   

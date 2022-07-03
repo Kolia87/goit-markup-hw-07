@@ -1,11 +1,17 @@
-  .clients__team__item {
+.clients {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+  
+  .clients_item {
     flex-basis: calc((100% - 150px) / 6);
     &:not(:last-child) {
       margin-right: 30px;
     }
   }
- 
-  .clients__team__link {
+  
+  .clients_link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -20,11 +26,11 @@
     border-radius: 4px;
   }
   }
-  .clients__team__link_icon{
+  .clients_icon{
     fill: var(--clients-icon-bg);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        .clients__team__link:hover &,
-        .clients__team__link:focus &{
+        .clients_link:hover &,
+        .clients_link:focus &{
         fill: var(--accent-color);
         border-radius: 4px;
         }

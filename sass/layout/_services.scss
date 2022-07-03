@@ -1,13 +1,13 @@
 
- .gallery{
+ .section--nopadding-top{
     padding-top: 0px;
   }
-  .gallery__item {
+  .gallery {
     display: flex;
     margin-top: 50px;
   }
  
-  .gallery__item__images {
+  .gallery__item {
     position: relative;
     flex-basis: calc((100% - 60px) / 3);
     display: block;
@@ -34,10 +34,4 @@
     color: var(--primary-bg-color);
     background-color: var(--wrapped_gal);
   }
-  .content {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--text-color);
-  }
+  

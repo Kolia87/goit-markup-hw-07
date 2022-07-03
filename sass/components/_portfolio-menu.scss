@@ -1,4 +1,4 @@
-.button_portfolio {
+.portfolio {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -9,13 +9,13 @@
   }
 }
 
-.button_portfolio_content {
+.portfolio__item {
   margin-right: 8px;
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
-.button_text {
+.portfolio__button {
   padding-left: 22px;
   padding-top: 6px;
   padding-bottom: 6px;

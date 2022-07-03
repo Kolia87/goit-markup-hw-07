@@ -1,11 +1,9 @@
-.user {
-    background-color: var(--portfolio-color-button);
-  }
-  .user__list {
+
+  .teams {
     display: flex;
     margin-top: 50px;
   }
-  .user__list__item {
+  .teams__items {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -15,11 +13,11 @@
       margin-right: 30px;
     }
   }
-  .team {
+  .team__box {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .team__name {
+  .team__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -29,7 +27,7 @@
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
   }
-  .team__direction {
+  .team__description {
     margin-top: 10px;
     margin-bottom: 16px;
     font-weight: 400;
@@ -39,22 +37,25 @@
     letter-spacing: 0.03em;
     color: var(--text-color);
   }
-  .team__list {
+  .social {
     display: flex;
     justify-content: center;
   }
-  
-  .gallery__development__images {
+ 
+  .gallery__images,
+  .teams__imeges {
     display: block;
     max-width: 100%;
     height: auto;
   }
 
-  
-  .team__list__item:not(:last-child) {
+  .section--user-background {
+    background-color: var(--portfolio-color-button);
+  }
+  .social__item:not(:last-child) {
     margin-right: 10px;
   }
-  .team__list__link {
+  .social__link {
     display: flex;
     box-shadow: none;
     width: 44px;
@@ -69,15 +70,15 @@
   }
   }
 
-  .team__list__link__icon {
+  .social__icon {
     fill: var(--clients-icon-bg);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         &:hover,
         &:focus{
           fill: var(--accent-color);
         }
-        .team__list__link:hover &,
-        .team__list__link:focus & {
+        .social__link:hover &,
+        .social__link:focus & {
           fill: var(--primary-bg-color);}
   }
 

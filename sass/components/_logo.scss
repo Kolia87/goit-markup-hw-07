@@ -1,6 +1,6 @@
 .logo,
 .logo_item,
-.logo__footer__color {
+.logo__color__white {
   font-style: normal;
   text-decoration: none;
   font-family: 'Raleway';
@@ -10,6 +10,11 @@
   letter-spacing: 0.03em;
 }
 
+.logo__color__white {
+  font-style: normal;
+  text-decoration: none;
+  color: var(--primary-bg-color);
+}
 .logo {
   color: var(--accent-color);
   margin-right: 93px;
